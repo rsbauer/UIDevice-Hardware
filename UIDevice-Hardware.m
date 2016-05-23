@@ -127,7 +127,7 @@
 
 - (UIDeviceFamily) deviceFamily
 {
-    NSString *modelIdentifier = [self modelIdentifier];
+    NSString *modelIdentifier = [self modelName];
     if ([modelIdentifier hasPrefix:@"iPhone"]) return UIDeviceFamilyiPhone;
     if ([modelIdentifier hasPrefix:@"iPod"]) return UIDeviceFamilyiPod;
     if ([modelIdentifier hasPrefix:@"iPad"]) return UIDeviceFamilyiPad;
