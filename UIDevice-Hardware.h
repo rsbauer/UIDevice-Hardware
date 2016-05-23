@@ -38,4 +38,9 @@ typedef NS_ENUM(NSUInteger, UIDeviceFamily) {
  */
 - (NSString *) osVersion;
 
+/**
+ Convert UIDeviceFamily name to string
+ */
+- (NSString *) deviceFamilyName:(UIDeviceFamily)deviceFamily;
+
 @end

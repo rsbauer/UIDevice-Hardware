@@ -135,6 +135,27 @@
     return UIDeviceFamilyUnknown;
 }
 
+- (NSString *) deviceFamilyName:(UIDeviceFamily)deviceFamily
+{
+    if(deviceFamily == UIDeviceFamilyiPad) {
+        return @"iPad";
+    }
+    
+    if(deviceFamily == UIDeviceFamilyiPod) {
+        return @"iPod";
+    }
+
+    if(deviceFamily == UIDeviceFamilyiPhone) {
+        return @"iPhone";
+    }
+    
+    if(deviceFamily == UIDeviceFamilyAppleTV) {
+        return @"AppleTV";
+    }
+    
+    return @"Family Unknown";
+}
+
 - (NSString *) osVersion {
     NSString *osver = [[UIDevice currentDevice] systemVersion];
     return osver;
