@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'UIDevice-Hardware'
-  s.version      = '0.2.0'
+  s.version      = '0.2.1'
   s.license      = { :type => 'BSD' }
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'  
