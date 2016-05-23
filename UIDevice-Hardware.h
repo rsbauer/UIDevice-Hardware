@@ -33,4 +33,9 @@ typedef NS_ENUM(NSUInteger, UIDeviceFamily) {
  */
 - (UIDeviceFamily)deviceFamily;
 
+/**
+ Returns the OS version
+ */
+- (NSString *) osVersion;
+
 @end

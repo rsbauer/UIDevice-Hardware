@@ -135,4 +135,9 @@
     return UIDeviceFamilyUnknown;
 }
 
+- (NSString *) osVersion {
+    NSString *osver = [[UIDevice currentDevice] systemVersion];
+    return osver;
+}
+
 @end
